@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84FF4541464913400E62672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84FF4531464913400E62672 /* UIKit.framework */; };
+		F84FF4561464913400E62672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84FF4551464913400E62672 /* Foundation.framework */; };
+		F84FF4581464913400E62672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84FF4571464913400E62672 /* CoreGraphics.framework */; };
+		F84FF45E1464913500E62672 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F84FF45C1464913500E62672 /* InfoPlist.strings */; };
+		F84FF4601464913500E62672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF45F1464913500E62672 /* main.m */; };
+		F84FF4641464913500E62672 /* PatternLockAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF4631464913500E62672 /* PatternLockAppAppDelegate.m */; };
+		F84FF4671464913500E62672 /* PatternLockAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF4661464913500E62672 /* PatternLockAppViewController.m */; };
+		F84FF46A1464913500E62672 /* PatternLockAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84FF4681464913500E62672 /* PatternLockAppViewController.xib */; };
+		F84FF4741464921500E62672 /* DrawPatternLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF4701464921500E62672 /* DrawPatternLockView.m */; };
+		F84FF4751464921500E62672 /* DrawPatternLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FF4711464921500E62672 /* DrawPatternLockViewController.m */; };
+		F84FF4781464935800E62672 /* dot_off.png in Resources */ = {isa = PBXBuildFile; fileRef = F84FF4761464935800E62672 /* dot_off.png */; };
+		F84FF4791464935800E62672 /* dot_on.png in Resources */ = {isa = PBXBuildFile; fileRef = F84FF4771464935800E62672 /* dot_on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F84FF44F1464913400E62672 /* PatternLockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternLockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84FF4531464913400E62672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F84FF4551464913400E62672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F84FF4571464913400E62672 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F84FF45B1464913400E62672 /* PatternLockApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatternLockApp-Info.plist"; sourceTree = "<group>"; };
+		F84FF45D1464913500E62672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F84FF45F1464913500E62672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F84FF4611464913500E62672 /* PatternLockApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatternLockApp-Prefix.pch"; sourceTree = "<group>"; };
+		F84FF4621464913500E62672 /* PatternLockAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternLockAppAppDelegate.h; sourceTree = "<group>"; };
+		F84FF4631464913500E62672 /* PatternLockAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatternLockAppAppDelegate.m; sourceTree = "<group>"; };
+		F84FF4651464913500E62672 /* PatternLockAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternLockAppViewController.h; sourceTree = "<group>"; };
+		F84FF4661464913500E62672 /* PatternLockAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatternLockAppViewController.m; sourceTree = "<group>"; };
+		F84FF4691464913500E62672 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PatternLockAppViewController.xib; sourceTree = "<group>"; };
+		F84FF4701464921500E62672 /* DrawPatternLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPatternLockView.m; sourceTree = "<group>"; };
+		F84FF4711464921500E62672 /* DrawPatternLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPatternLockViewController.m; sourceTree = "<group>"; };
+		F84FF4721464921500E62672 /* DrawPatternLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPatternLockView.h; sourceTree = "<group>"; };
+		F84FF4731464921500E62672 /* DrawPatternLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPatternLockViewController.h; sourceTree = "<group>"; };
+		F84FF4761464935800E62672 /* dot_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_off.png; sourceTree = "<group>"; };
+		F84FF4771464935800E62672 /* dot_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_on.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84FF44C1464913400E62672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84FF4541464913400E62672 /* UIKit.framework in Frameworks */,
+				F84FF4561464913400E62672 /* Foundation.framework in Frameworks */,
+				F84FF4581464913400E62672 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F84FF4441464913400E62672 = {
+			isa = PBXGroup;
+			children = (
+				F84FF4591464913400E62672 /* PatternLockApp */,
+				F84FF4521464913400E62672 /* Frameworks */,
+				F84FF4501464913400E62672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F84FF4501464913400E62672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84FF44F1464913400E62672 /* PatternLockApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84FF4521464913400E62672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F84FF4531464913400E62672 /* UIKit.framework */,
+				F84FF4551464913400E62672 /* Foundation.framework */,
+				F84FF4571464913400E62672 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F84FF4591464913400E62672 /* PatternLockApp */ = {
+			isa = PBXGroup;
+			children = (
+				F84FF4621464913500E62672 /* PatternLockAppAppDelegate.h */,
+				F84FF4631464913500E62672 /* PatternLockAppAppDelegate.m */,
+				F84FF4651464913500E62672 /* PatternLockAppViewController.h */,
+				F84FF4661464913500E62672 /* PatternLockAppViewController.m */,
+				F84FF4681464913500E62672 /* PatternLockAppViewController.xib */,
+				F84FF4701464921500E62672 /* DrawPatternLockView.m */,
+				F84FF4721464921500E62672 /* DrawPatternLockView.h */,
+				F84FF4711464921500E62672 /* DrawPatternLockViewController.m */,
+				F84FF4731464921500E62672 /* DrawPatternLockViewController.h */,
+				F84FF45A1464913400E62672 /* Supporting Files */,
+			);
+			path = PatternLockApp;
+			sourceTree = "<group>";
+		};
+		F84FF45A1464913400E62672 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84FF4761464935800E62672 /* dot_off.png */,
+				F84FF4771464935800E62672 /* dot_on.png */,
+				F84FF45B1464913400E62672 /* PatternLockApp-Info.plist */,
+				F84FF45C1464913500E62672 /* InfoPlist.strings */,
+				F84FF45F1464913500E62672 /* main.m */,
+				F84FF4611464913500E62672 /* PatternLockApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84FF44E1464913400E62672 /* PatternLockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84FF46D1464913500E62672 /* Build configuration list for PBXNativeTarget "PatternLockApp" */;
+			buildPhases = (
+				F84FF44B1464913400E62672 /* Sources */,
+				F84FF44C1464913400E62672 /* Frameworks */,
+				F84FF44D1464913400E62672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatternLockApp;
+			productName = PatternLockApp;
+			productReference = F84FF44F1464913400E62672 /* PatternLockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84FF4461464913400E62672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F84FF4491464913400E62672 /* Build configuration list for PBXProject "PatternLockApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F84FF4441464913400E62672;
+			productRefGroup = F84FF4501464913400E62672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84FF44E1464913400E62672 /* PatternLockApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84FF44D1464913400E62672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84FF45E1464913500E62672 /* InfoPlist.strings in Resources */,
+				F84FF46A1464913500E62672 /* PatternLockAppViewController.xib in Resources */,
+				F84FF4781464935800E62672 /* dot_off.png in Resources */,
+				F84FF4791464935800E62672 /* dot_on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84FF44B1464913400E62672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84FF4601464913500E62672 /* main.m in Sources */,
+				F84FF4641464913500E62672 /* PatternLockAppAppDelegate.m in Sources */,
+				F84FF4671464913500E62672 /* PatternLockAppViewController.m in Sources */,
+				F84FF4741464921500E62672 /* DrawPatternLockView.m in Sources */,
+				F84FF4751464921500E62672 /* DrawPatternLockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F84FF45C1464913500E62672 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84FF45D1464913500E62672 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F84FF4681464913500E62672 /* PatternLockAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84FF4691464913500E62672 /* en */,
+			);
+			name = PatternLockAppViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84FF46B1464913500E62672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F84FF46C1464913500E62672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F84FF46E1464913500E62672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatternLockApp/PatternLockApp-Prefix.pch";
+				INFOPLIST_FILE = "PatternLockApp/PatternLockApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F84FF46F1464913500E62672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatternLockApp/PatternLockApp-Prefix.pch";
+				INFOPLIST_FILE = "PatternLockApp/PatternLockApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84FF4491464913400E62672 /* Build configuration list for PBXProject "PatternLockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84FF46B1464913500E62672 /* Debug */,
+				F84FF46C1464913500E62672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84FF46D1464913500E62672 /* Build configuration list for PBXNativeTarget "PatternLockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84FF46E1464913500E62672 /* Debug */,
+				F84FF46F1464913500E62672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F84FF4461464913400E62672 /* Project object */;
+}
